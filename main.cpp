@@ -5,6 +5,7 @@
 // Description:
 // Sources: 
 
+
 // ------------- ZYBOOKS SCORES -------------
 // https://learn.zybooks.com/zybook/PCCCS161ASummer25
 // Chapter: 
@@ -12,10 +13,12 @@
 // Challenge:
 // Labs:
 
+
 // ------------- DISCORD POSTS -------------
 // https://discord.com/invite/URYKKf8YHm
 // Count:
 // Links (Optional): 
+
 
 // ------------- DESIGN DOCUMENT -------------
 // A. INPUT [yes/no]: 
@@ -24,9 +27,11 @@
 // D. LOGIC and ALGORITHMS [yes/no]:
 //    (Optional) flow chart link or file name: 
 
+
 // ------------- TESTING -------------
 // PASS ALL GIVEN SAMPLE RUN TESTS [yes/no]: 
 // (Optional) Additional tests count:   
+
 
 // ------------- CODE -------------
 #include <iostream>
