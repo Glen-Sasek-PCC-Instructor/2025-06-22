@@ -1,0 +1,127 @@
+Create a variable
+DECLARE
+DECLARE integer num_dogs
+
+
+Print to the console window
+DISPLAY
+DISPLAY “Hello!”
+
+
+Read input from the user into a variable
+INPUT  
+INPUT num_dogs
+
+
+Update the contents of a variable
+SET
+SET num_dogs = num_dogs + 1
+
+
+Conditionals
+Use a single alternative conditional
+IF condition THEN
+     statement
+     statement
+END IF
+
+IF num_dogs > 10 THEN
+     DISPLAY “That is a lot of dogs!”
+END IF
+
+Use a dual alternative conditional
+IF condition THEN
+     statement
+     statement
+ELSE
+     statement
+     statement
+END IF
+
+IF num_dogs > 10 THEN
+     DISPLAY “You have more than 10 dogs!”
+ELSE
+     DISPLAY “You have ten or fewer dogs!”
+END IF
+
+
+Use a switch/case statement
+SELECT variable or expression
+   CASE value_1:
+      statement
+      statement
+   CASE value_2:
+      statement
+      statement
+   CASE value_2:
+      statement
+      statement
+   DEFAULT:
+      statement
+      statement
+END SELECT
+
+SELECT num_dogs
+   CASE 0: DISPLAY “No dogs!”
+   CASE 1: DISPLAY “One dog..”
+   CASE 2: DISPLAY “Two dogs..”
+   CASE 3: DISPLAY “Three dogs..”
+   DEFAULT: DISPLAY “Lots of dogs!”
+END SELECT
+
+
+Loops
+Loop while a condition is true - the loop body will execute 0 or more times.
+WHILE condition
+   statement
+   statement
+END WHILE
+
+SET num_dogs = 1
+WHILE num_dogs < 10
+   DISPLAY num_dogs, “ dogs!”
+   SET num_dogs = num_dogs + 1
+END WHILE
+
+Loop while a condition is true - the loop body will execute 1 or more times.
+DO 
+   statement
+   statement
+WHILE condition
+
+SET num_dogs = 1
+DO 
+   DISPLAY num_dogs, “ dogs!”
+   SET num_dogs = num_dogs + 1
+WHILE num_dogs < 10
+
+Loop a specific number of times.
+FOR counter = start TO end 
+   statement
+   statement
+END FOR
+
+FOR count = 1 TO 10
+   DISPLAY num_dogs, “ dogs!”
+END FOR
+
+Functions
+Create a function
+FUNCTION return_type name (parameters)
+   statement
+   statement
+END FUNCTION
+
+FUNCTION Integer add(Integer num1, Integer num2)
+   DECLARE Integer sum
+   SET sum = num1 + num2
+   RETURN sum
+END FUNCTION
+
+Call a function
+CALL function_name
+CALL add(2, 3)
+
+Return data from a function
+RETURN value
+RETURN 2 + 3
