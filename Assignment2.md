@@ -2,14 +2,9 @@
 
 # Assignment 2: How many Calories?
 
-| Academic Integrity You may NOT, under any circumstances, begin a programming assignment by looking for completed code on StackOverflow or Chegg or any such website, which you can claim as your own.  Please check out the [Student Code of Conduct at PCC.](https://www.pcc.edu/student-conduct/conduct/quick-view-of-policy/) The only way to learn to code is to do it yourself. The assignments will be built from examples during the lectures, so ask for clarification during class if something seems confusing. If you start with code from another source and just change the variable names or other content to make it look original, you will receive a zero on the assignment. I may ask you to explain your assignment verbally. If you cannot satisfactorily explain what your code does, and answer questions about why you wrote it in a particular way, then you should also expect a zero.  |
-| :---- |
-
 ## Introduction
 
 How many calories and servings do you consume when you open up a package of Oreos?\! Did you know 5 cookies make up 1 serving and each serving has 160 calories?
-
-![][image1]
 
 ## Purpose
 
