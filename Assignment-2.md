@@ -18,11 +18,11 @@ After completing this assignment you will be able to:
 
 ## Task
 
+
 * Before you get started:
 
   * Check out Sample Assignment A02 \- [Sample2Code](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/a2-sample.cpp)
 
-* You must express your algorithm as **pseudocode.**
 
 * Oreo Cookies would like you to write a program for their website. The program should prompt the user for the number of cookies they have eaten and display the number of servings and total calories. The program should perform the following steps:
 
@@ -70,11 +70,11 @@ You consumed 96.0 calories.
 Keep eating Oreos!
 ```
 
-* Complete zyBooks section **CS161A 2\. Data Types & Math Functions** activities.
+* To get started, open the [Assignment Template File](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/main.cpp), and make a copy.
 
-* Complete all sections of your Algorithmic Design Document.
+* Complete all sections of the Assignment Template File. 
 
-* Include **pseudocode** in part d of the design document.
+* You must express your algorithm as **pseudocode.** [Pseudocode Reference](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/Pseudocode-Reference.txt)
 
 * **Follow these Coding Construct Requirements:**
 
