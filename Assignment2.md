@@ -46,11 +46,29 @@ After completing this assignment you will be able to:
 
 ## Criteria for Success
 
-* Test your program using the following sample runs, making sure you get the same output when using the given inputs (in **blue**):
+* Test your program using the following sample runs, making sure you get the same output when using the given inputs:
 
-| Welcome to the Oreo Calculator\! Enter the number of Oreos eaten: 12  12 Oreos equals 2.4 servings\! You consumed 384.0 calories. Keep eating Oreos\! |
-| :---- |
-| Welcome to the Oreo Calculator\! Enter the number of Oreos eaten: **3**  3 Oreos equals 0.6 servings\! You consumed 96.0 calories. Keep eating Oreos\! |
+```
+Welcome to the Oreo Calculator!
+
+Enter the number of Oreos eaten: 12
+
+12 Oreos equals 2.4 servings!
+You consumed 384.0 calories.
+
+Keep eating Oreos!
+```
+
+```
+Welcome to the Oreo Calculator!
+
+Enter the number of Oreos eaten: 3
+
+3 Oreos equals 0.6 servings!
+You consumed 96.0 calories.
+
+Keep eating Oreos!
+```
 
 * Complete zyBooks section **CS161A 2\. Data Types & Math Functions** activities.
 
