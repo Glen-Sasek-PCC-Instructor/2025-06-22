@@ -139,10 +139,6 @@ Thank you for using my program!
 
 ## Additional Support
 
-* Check out Sample Assignment A05 \- [Algorithmic Design document](https://docs.google.com/document/d/1FEzOaGoo3xMzE_vzpJJfxbwoASRNptCXSJDWUcnzvVI/edit?usp=sharing)
-
-* Check out Sample Assignment A05 \- [Sample5 Code](https://docs.google.com/document/d/1JVJUOr1pnelEK7lurMgYXTWRl4Rv8r5SkqicMdPSIT4/edit?usp=sharing)
-
 * [Finding the maximum and minimum from user input](https://youtu.be/RwqEqqqU9QI) video.  
 * Section 5.1 Loops (general) in zyBooks has information on finding the maximum number.  
 
