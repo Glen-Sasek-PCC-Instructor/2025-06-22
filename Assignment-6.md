@@ -2,14 +2,9 @@
 
 # Assignment 6: Vending Machine
 
-| Academic Integrity You may NOT, under any circumstances, begin a programming assignment by looking for completed code on StackOverflow or Chegg or any such website, which you can claim as your own.  Please check out the [Student Code of Conduct at PCC.](https://www.pcc.edu/student-conduct/conduct/quick-view-of-policy/) The only way to learn to code is to do it yourself. The assignments will be built from examples during the lectures, so ask for clarification during class if something seems confusing. If you start with code from another source and just change the variable names or other content to make it look original, you will receive a zero on the assignment. I may ask you to explain your assignment verbally. If you cannot satisfactorily explain what your code does, and answer questions about why you wrote it in a particular way, then you should also expect a zero.  |
-| :---- |
-
 ## Introduction
 
 A Vending Machine sells Coffee and Tea for $0.25. You can buy coffee or tea, enter the quantity and get your balance after the machine has dispensed your drink.
-
-![][image1]
 
 ## Purpose
 
@@ -23,23 +18,13 @@ After completing this assignment you will be able to:
 
 ## Task
 
-* Before you get started:
-
-  * Check out Sample Assignment A06 \- [Algorithmic Design document](https://docs.google.com/document/d/1cKG5bB-L28L3roxy1Vt7lQLLPrVVeIGcsy4_tzskOkw/edit?usp=sharing)
-
-  * Check out Sample Assignment A06 \- [Sample6 Code](https://docs.google.com/document/d/1LkdWcCDDSwnzQlEGWJKt7giOusPBNXwgwoFXpljgGnE/edit?usp=sharing)
-
-* Open the [Algorithmic Design Document](https://docs.google.com/document/d/1Y0kHPoUWHcbH-_0yma7sMCUR0EvLL7CKEvTGTetqEmU/edit?usp=sharing), make a copy, and follow the steps to create your algorithm.
-
-* You must express your algorithm as **pseudocode** or a **flowchart.**
-
 * You will write a program to do the following:
 
   * Read coins from the user until the user enters 0\. Accept only 5, 10 or 25 for numbers (nickels, dimes, and quarters). Do data validation and stay in a loop if other numbers are entered. Use 0 to end. Keep an accumulator to count the amount of money entered.
 
   * Then present a menu to the user (see Sample Run below) for Coffee, Tea or Quit. If the user chooses Quit, output the balance, and quit the program. Your program must use upper and lower case letters. Cost of coffee and tea is $0.25 each.
 
-  * If the input is not valid, print an error message and prompt again. Continue to give an error message and prompt until the user enters a valid choice. Please see [Sample6 Code](https://docs.google.com/document/d/1LkdWcCDDSwnzQlEGWJKt7giOusPBNXwgwoFXpljgGnE/edit?usp=sharing) for all data validation examples.
+  * If the input is not valid, print an error message and prompt again. Continue to give an error message and prompt until the user enters a valid choice. Please see [Sample6 Code](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/a6-sample.cpp) for all data validation examples.
 
   * Prompt the user for the quantity and validate. If the input is not valid, print an error message and prompt again. Continue to give an error message and prompt until the user enters a valid choice. See Sample Run below.
 
@@ -55,9 +40,6 @@ After completing this assignment you will be able to:
 
   * **Do not use any goto statements. You may not use any breaks, continue, or return statements inside any loops \- you are allowed to use breaks inside a switch statement.** Please check the coding guidelines in the [style guidelines](https://docs.google.com/document/d/1avQh7119eRLYZg2ctgeJ57eNRr-KgLr56h2eBxi9_dQ/edit?usp=sharing)
 
-  * **Use only concepts you have learned so far.**
-
-  * I have some Sample Runs below \- please check all of them to see how your program should behave.
 
   * Print a goodbye message.
 
@@ -65,20 +47,16 @@ After completing this assignment you will be able to:
 
 * Test your program using the following sample runs, making sure you get the same output when using the given inputs (in **blue**):
 
-| Welcome to my Coffee/Tea Vending Machine\! Enter coins \- 5, 10, or 25 only: 5 Enter coins \- 5, 10, or 25 only: 25 Enter coins \- 5, 10, or 25 only: 25 Enter coins \- 5, 10, or 25 only: 5 Enter coins \- 5, 10, or 25 only: 10 Enter coins \- 5, 10, or 25 only: 10 Enter coins \- 5, 10, or 25 only: 0 Your balance is $0.80 Please pick an option ($0.25 each):     C/c: Coffee     T/t: Tea     Q/q: Quit \>\> k Invalid Option\! Please choose a valid option\! \>\> 9 Invalid Option\! Please choose a valid option\! \>\> c How many would you like? \>\> f Invalid Option\! How many would you like? \>\> 2  Your total: $0.50 Your balance: $0.30 Thank you for using my Vending Machine Program\! |
-| :---- |
-| Welcome to my Coffee/Tea Vending Machine\! Enter coins \- 5, 10, or 25 only: 5 Enter coins \- 5, 10, or 25 only: 25 Enter coins \- 5, 10, or 25 only: 0 Your balance is $0.30 Please pick an option ($0.25 each):     C/c: Coffee     T/t: Tea     Q/q: Quit \>\> **c**  How many would you like? \>\> **2** Your total is $0.50 Your balance is $0.30 Not enough change\!\! Please add more coins. Enter coins \- 5, 10, or 25 only: 5 Enter coins \- 5, 10, or 25 only: 25 Enter coins \- 5, 10, or 25 only: 0 Your balance: $0.60 Please pick an option ($0.25 each):     C/c: Coffee     T/t: Tea     Q/q: Quit \>\> **T** How many would you like? \>\> **1** Your total is $0.25 Your balance is $0.35 Thank you for using my Vending Machine Program\! |
-| Welcome to my Coffee/Tea Vending Machine\! Enter coins \- 5, 10, or 25 only: 5 Enter coins \- 5, 10, or 25 only: 25 Enter coins \- 5, 10, or 25 only: 0 Your balance is $0.30 Please pick an option ($0.25 each):     C/c: Coffee     T/t: Tea     Q/q: Quit \>\> **q** Your total is $0 Your balance is $0.30 Thank you for using my Vending Machine Program\! |
 
-* Check out Sample Assignment A06 \- [Algorithmic Design document](https://docs.google.com/document/d/1cKG5bB-L28L3roxy1Vt7lQLLPrVVeIGcsy4_tzskOkw/edit?usp=sharing)
 
-* Check out Sample Assignment A06 \- [Sample6 Code](https://docs.google.com/document/d/1LkdWcCDDSwnzQlEGWJKt7giOusPBNXwgwoFXpljgGnE/edit?usp=sharing)
+* To get started, open the [Assignment Template File](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/main.cpp), and make a copy.
 
-* Complete zyBooks section **CS161A 6\. Loops Part II** activities.
+* Complete all sections of the Assignment Template File. 
 
-* Complete all sections of your Algorithmic Design Document.
+* You must express your algorithm as **pseudocode.** [Pseudocode Reference](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/Pseudocode-Reference.txt)
 
-* Include **pseudocode** or a **flowchart** in part d of the design document.
+* Check out Sample Assignment A06 \- [Sample5 Code](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/a6-sample.cpp)
+* 
 
 * **Follow these Coding Construct Requirements:**
 
@@ -96,17 +74,6 @@ After completing this assignment you will be able to:
 
   * Print a welcome and goodbye message.
 
-* Please open and compare your work with the [grading rubric](https://docs.google.com/document/d/1OgJpTGzDOtA6GMqi87ggiLgu79zw71-I80jPjC4eZMQ/edit?usp=sharing) before submitting.
-
-* Remember to follow all [style guidelines](https://docs.google.com/document/d/1avQh7119eRLYZg2ctgeJ57eNRr-KgLr56h2eBxi9_dQ/edit?usp=sharing).
-
-* You must have comments in your code per [style guidelines](https://docs.google.com/document/d/1avQh7119eRLYZg2ctgeJ57eNRr-KgLr56h2eBxi9_dQ/edit?usp=sharing).
-
-* Download your Algorithmic Design Document as a PDF (File \-\> Download \-\> PDF), rename it to a06.pdf, and upload it to the D2L assignment by **Wednesday**.
-
-* Upload your a06.cpp C++ source file to the D2L assignment by **Sunday**.
-
-* Do your own work. Consult the syllabus for more information about academic integrity.
 
 ## Additional Support
 
