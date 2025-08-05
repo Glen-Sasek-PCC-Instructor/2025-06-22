@@ -45,7 +45,105 @@ After completing this assignment you will be able to:
 
 ## Criteria for Success
 
-* Test your program using the following sample runs, making sure you get the same output when using the given inputs (in **blue**):
+* Test your program using the following sample runs, making sure you get the same output when using the given inputs:
+
+```
+Welcome to my Coffee/Tea Vending Machine!
+
+Enter coins - 5, 10, or 25 only: 5
+Enter coins - 5, 10, or 25 only: 25
+Enter coins - 5, 10, or 25 only: 25
+Enter coins - 5, 10, or 25 only: 5
+Enter coins - 5, 10, or 25 only: 10
+Enter coins - 5, 10, or 25 only: 10
+Enter coins - 5, 10, or 25 only: 0
+
+Your balance is $0.80
+
+Please pick an option ($0.25 each):
+    C/c: Coffee
+    T/t: Tea
+    Q/q: Quit
+>> k
+Invalid Option! Please choose a valid option!
+>> 9
+Invalid Option! Please choose a valid option!
+>> c
+How many would you like?
+>> f
+Invalid Option!
+How many would you like?
+>> 2
+
+Your total: $0.50
+Your balance: $0.30
+Thank you for using my Vending Machine Program!
+
+
+
+Welcome to my Coffee/Tea Vending Machine!
+
+Enter coins - 5, 10, or 25 only: 5
+Enter coins - 5, 10, or 25 only: 25
+Enter coins - 5, 10, or 25 only: 0
+
+Your balance is $0.30
+
+Please pick an option ($0.25 each):
+    C/c: Coffee
+    T/t: Tea
+    Q/q: Quit
+>> c
+
+How many would you like?
+>> 2
+
+Your total is $0.50
+Your balance is $0.30
+Not enough change!! Please add more coins.
+
+Enter coins - 5, 10, or 25 only: 5
+Enter coins - 5, 10, or 25 only: 25
+Enter coins - 5, 10, or 25 only: 0
+
+Your balance: $0.60
+
+Please pick an option ($0.25 each):
+    C/c: Coffee
+    T/t: Tea
+    Q/q: Quit
+>> T
+
+How many would you like?
+>> 1
+
+Your total is $0.25
+Your balance is $0.35
+
+Thank you for using my Vending Machine Program!
+
+
+
+
+Welcome to my Coffee/Tea Vending Machine!
+
+Enter coins - 5, 10, or 25 only: 5
+Enter coins - 5, 10, or 25 only: 25
+Enter coins - 5, 10, or 25 only: 0
+Your balance is $0.30
+
+Please pick an option ($0.25 each):
+    C/c: Coffee
+    T/t: Tea
+    Q/q: Quit
+>> q
+
+Your total is $0
+Your balance is $0.30
+
+Thank you for using my Vending Machine Program!
+
+```
 
 
 
@@ -56,7 +154,6 @@ After completing this assignment you will be able to:
 * You must express your algorithm as **pseudocode.** [Pseudocode Reference](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/Pseudocode-Reference.txt)
 
 * Check out Sample Assignment A06 \- [Sample6 Code](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/a6-sample.cpp)
-* 
 
 * **Follow these Coding Construct Requirements:**
 
