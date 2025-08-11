@@ -69,7 +69,7 @@ After completing this assignment you will be able to:
   * **welcome()** \- void function, no parameters
 
   * You must have these functions:
-   * readInt() *
+   * readInt() 
    * readScore()
    * assignAverage()
    * calcFinalScore()
