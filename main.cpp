@@ -1,34 +1,33 @@
 // ------------- FILE HEADER -------------
-// Author: 
-// Assignment:
-// Date:
-// Description:
-// Sources: 
+// Author ✅: 
+// Assignment ✅:
+// Date ✅:
+// Citations: 
 
 
 // ------------- ZYBOOKS SCORES -------------
-// Chapter: 
-// Participation: 
-// Challenge:
-// Labs:
+// Chapter ✅: 
+// Participation ✅: 
+// Challenge ✅:
+// Labs ✅:
 
 
 // ------------- DISCORD POSTS -------------
 // https://discord.com/invite/URYKKf8YHm
-// Count:
+// Count ✅:
 // Links (Optional): 
 
 
 // ------------- DESIGN DOCUMENT -------------
-// A. INPUT [yes/no]: 
-// B. OUTPUT [yes/no]:
-// C. CALCULATIONS [yes/no]:
-// D. LOGIC and ALGORITHMS [yes/no]:
+// A. INPUT ✅: 
+// B. OUTPUT ✅:
+// C. CALCULATIONS ✅:
+// D. LOGIC and ALGORITHMS ✅:
 //    (Optional) flow chart link or file name: 
 
 
 // ------------- TESTING -------------
-// PASS ALL GIVEN SAMPLE RUN TESTS [yes/no]: 
+// PASS ALL GIVEN SAMPLE RUN TESTS ✅: 
 // (Optional) Additional tests count:   
 
 
@@ -41,7 +40,6 @@ int main() {
   cout << "Hello, World!" << endl;
   return 0;
 }
-
 
 
 
