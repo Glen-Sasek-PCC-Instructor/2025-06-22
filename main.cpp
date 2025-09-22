@@ -36,11 +36,17 @@
 
 using namespace std;
 
-int main() {
+// Function prototypes (if any)
+
+
+// Main function
+// https://en.cppreference.com/w/cpp/language/main_function.html
+int main(int argc, char* argv[]) {
   cout << "Hello, World!" << endl;
   return 0;
 }
 
+// Function implementations (if any)
 
 
 // ------------- DESIGN -------------
